@@ -1,0 +1,4 @@
+#!/usr/bin/node
+
+const sauthc1Cli = require('../lib/sauthc1_cli');
+sauthc1Cli.main();

@@ -1,0 +1,36 @@
+{
+  "name": "cl-auth-js",
+  "version": "0.0.1",
+  "description": "CL Authentication Library useful to generate signatures using the Stormpath's SAuthc1 algorithm",
+  "main": "./lib/sauthc1.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/edify/cl-auth.git"
+  },
+  "keywords": [
+    "stormpath",
+    "signature",
+    "sautchc1",
+    "authentication"
+  ],
+  "author": "edify",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "args": "^2.0.0",
+    "assert": "^1.4.1",
+    "bluebird": "^3.4.6",
+    "dateformat": "^1.0.12",
+    "denodeify": "^1.2.1",
+    "lodash": "^4.15.0",
+    "mocha": "^3.0.2",
+    "redis": "^2.6.2",
+    "should": "^11.1.0"
+  }
+}

@@ -1,0 +1,26 @@
+#-------------------General config-------------------
+
+.envrc
+
+#-------------------For Nodejs-------------------
+
+*.log
+pids
+*.pid
+*.seed
+lib-cov
+coverage
+.grunt
+/**/build/Release
+node_modules/
+.tmp/
+logs
+
+
+#-------------------JetBrains IDEs-------------------
+
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea_modules/
