@@ -2,7 +2,7 @@
   "name": "cl-auth-js",
   "version": "0.0.1",
   "description": "CL Authentication Library useful to generate signatures using the Stormpath's SAuthc1 algorithm",
-  "main": "./lib/sauthc1.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "mocha --reporter spec"
   },
